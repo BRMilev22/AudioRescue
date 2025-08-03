@@ -49,9 +49,10 @@ struct PreferencesView: View {
                 Text("About")
                     .font(.headline)
                 
-                Text("AudioRescue fixes audio stuttering issues on MacBook Pro 2023/2024 by resetting the Core Audio daemon.")
+                Text("Fixes Mac audio crackling by restarting CoreAudio daemon.")
                     .font(.caption)
                     .foregroundColor(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
                 
                 Text("Command: sudo killall coreaudiod")
                     .font(.caption)
@@ -62,14 +63,20 @@ struct PreferencesView: View {
             Spacer()
         }
         .padding()
-        .frame(width: 400, height: 300)
+        .frame(minWidth: 400, maxWidth: 450, minHeight: 300, maxHeight: 350)
     }
     
     private func toggleLaunchAtLogin(_ enabled: Bool) {
-        if enabled {
-            try? SMAppService.mainApp.register()
-        } else {
-            try? SMAppService.mainApp.unregister()
+        do {
+            if enabled {
+                if SMAppService.mainApp.status == .notRegistered {
+                    try SMAppService.mainApp.register()
+                }
+            } else {
+                try SMAppService.mainApp.unregister()
+            }
+        } catch {
+            print("Failed to \(enabled ? "enable" : "disable") launch at login: \(error)")
         }
     }
 }

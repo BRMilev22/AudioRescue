@@ -1,10 +1,14 @@
 # AudioRescue 🔊 - Fix MacBook Audio Crackling & Stuttering
 
-**The Ultimate Solution for MacBook Audio Problems**
+<div align="center">
+  <img src="AudioRescue/Assets.xcassets/AppIcon.appiconset/audioRescueLogo.png" alt="AudioRescue Logo" width="128" height="128">
+  
+  **The Ultimate Solution for MacBook Audio Problems**
+  
+  A lightweight macOS menu bar application that instantly fixes audio stuttering, crackling, popping, and distortion issues on MacBook Pro, MacBook Air, iMac, and Mac Studio with Apple Silicon (M1, M2, M3, M4) and Intel processors.
 
-A lightweight macOS menu bar application that instantly fixes audio stuttering, crackling, popping, and distortion issues on MacBook Pro, MacBook Air, iMac, and Mac Studio with Apple Silicon (M1, M2, M3, M4) and Intel processors.
-
-![AudioRescue Icon](https://img.shields.io/badge/macOS-Menu%20Bar%20App-blue) ![Swift](https://img.shields.io/badge/Swift-5.9-orange) ![License](https://img.shields.io/badge/License-MIT-green) ![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-M1%20M2%20M3%20M4-red) ![Intel](https://img.shields.io/badge/Intel-Compatible-blue)
+  ![macOS](https://img.shields.io/badge/macOS-Menu%20Bar%20App-blue) ![Swift](https://img.shields.io/badge/Swift-5.9-orange) ![License](https://img.shields.io/badge/License-MIT-green) ![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-M1%20M2%20M3%20M4-red) ![Intel](https://img.shields.io/badge/Intel-Compatible-blue)
+</div>
 
 ## 🚨 The Problem: Widespread MacBook Audio Issues
 

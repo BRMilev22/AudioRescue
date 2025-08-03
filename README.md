@@ -10,6 +10,28 @@
   ![macOS](https://img.shields.io/badge/macOS-Menu%20Bar%20App-blue) ![Swift](https://img.shields.io/badge/Swift-5.9-orange) ![License](https://img.shields.io/badge/License-MIT-green) ![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-M1%20M2%20M3%20M4-red) ![Intel](https://img.shields.io/badge/Intel-Compatible-blue)
 </div>
 
+## 📋 Table of Contents
+
+- [🚨 The Problem: Widespread MacBook Audio Issues](#-the-problem-widespread-macbook-audio-issues)
+  - [Affected Devices](#affected-devices)
+  - [Processor Compatibility](#processor-compatibility)
+  - [🎵 Audio Problems You're Experiencing](#-audio-problems-youre-experiencing)
+  - [🔍 Root Causes (Technical Analysis)](#-root-causes-technical-analysis)
+- [💡 The Solution: CoreAudio Reset](#-the-solution-coreaudio-reset)
+- [Features](#features)
+- [Installation](#installation)
+  - [Download Release (Recommended)](#download-release-recommended)
+  - [Build from Source](#build-from-source)
+- [Usage](#usage)
+- [Preferences](#preferences)
+- [📚 Community & Support Resources](#-community--support-resources)
+- [Technical Details](#technical-details)
+- [Troubleshooting](#troubleshooting)
+- [Development](#development)
+- [License](#license)
+- [⭐ Why Choose AudioRescue?](#-why-choose-audiorescue)
+- [🆘 Still Having Audio Issues?](#-still-having-audio-issues)
+
 ## 🚨 The Problem: Widespread MacBook Audio Issues
 
 ### Affected Devices
@@ -101,7 +123,7 @@ sudo killall coreaudiod
 #### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/AudioRescue.git
+   git clone https://github.com/BRMilev22/AudioRescue.git
    cd AudioRescue
    ```
 

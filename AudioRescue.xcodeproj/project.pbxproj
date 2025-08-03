@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		45743C972E3FC6F2006F3138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45743C802E3FC6F1006F3138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45743C872E3FC6F1006F3138;
+			remoteInfo = AudioRescue;
+		};
+		45743CA12E3FC6F2006F3138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45743C802E3FC6F1006F3138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45743C872E3FC6F1006F3138;
+			remoteInfo = AudioRescue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45743C882E3FC6F1006F3138 /* AudioRescue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRescue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45743C962E3FC6F2006F3138 /* AudioRescueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRescueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45743CA02E3FC6F2006F3138 /* AudioRescueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRescueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		45743C8A2E3FC6F1006F3138 /* AudioRescue */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AudioRescue;
+			sourceTree = "<group>";
+		};
+		45743C992E3FC6F2006F3138 /* AudioRescueTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AudioRescueTests;
+			sourceTree = "<group>";
+		};
+		45743CA32E3FC6F2006F3138 /* AudioRescueUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AudioRescueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45743C852E3FC6F1006F3138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45743C932E3FC6F2006F3138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45743C9D2E3FC6F2006F3138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45743C7F2E3FC6F1006F3138 = {
+			isa = PBXGroup;
+			children = (
+				45743C8A2E3FC6F1006F3138 /* AudioRescue */,
+				45743C992E3FC6F2006F3138 /* AudioRescueTests */,
+				45743CA32E3FC6F2006F3138 /* AudioRescueUITests */,
+				45743C892E3FC6F1006F3138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45743C892E3FC6F1006F3138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45743C882E3FC6F1006F3138 /* AudioRescue.app */,
+				45743C962E3FC6F2006F3138 /* AudioRescueTests.xctest */,
+				45743CA02E3FC6F2006F3138 /* AudioRescueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45743C872E3FC6F1006F3138 /* AudioRescue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45743CAA2E3FC6F2006F3138 /* Build configuration list for PBXNativeTarget "AudioRescue" */;
+			buildPhases = (
+				45743C842E3FC6F1006F3138 /* Sources */,
+				45743C852E3FC6F1006F3138 /* Frameworks */,
+				45743C862E3FC6F1006F3138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				45743C8A2E3FC6F1006F3138 /* AudioRescue */,
+			);
+			name = AudioRescue;
+			packageProductDependencies = (
+			);
+			productName = AudioRescue;
+			productReference = 45743C882E3FC6F1006F3138 /* AudioRescue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45743C952E3FC6F2006F3138 /* AudioRescueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45743CAD2E3FC6F2006F3138 /* Build configuration list for PBXNativeTarget "AudioRescueTests" */;
+			buildPhases = (
+				45743C922E3FC6F2006F3138 /* Sources */,
+				45743C932E3FC6F2006F3138 /* Frameworks */,
+				45743C942E3FC6F2006F3138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45743C982E3FC6F2006F3138 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				45743C992E3FC6F2006F3138 /* AudioRescueTests */,
+			);
+			name = AudioRescueTests;
+			packageProductDependencies = (
+			);
+			productName = AudioRescueTests;
+			productReference = 45743C962E3FC6F2006F3138 /* AudioRescueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45743C9F2E3FC6F2006F3138 /* AudioRescueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45743CB02E3FC6F2006F3138 /* Build configuration list for PBXNativeTarget "AudioRescueUITests" */;
+			buildPhases = (
+				45743C9C2E3FC6F2006F3138 /* Sources */,
+				45743C9D2E3FC6F2006F3138 /* Frameworks */,
+				45743C9E2E3FC6F2006F3138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45743CA22E3FC6F2006F3138 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				45743CA32E3FC6F2006F3138 /* AudioRescueUITests */,
+			);
+			name = AudioRescueUITests;
+			packageProductDependencies = (
+			);
+			productName = AudioRescueUITests;
+			productReference = 45743CA02E3FC6F2006F3138 /* AudioRescueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45743C802E3FC6F1006F3138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					45743C872E3FC6F1006F3138 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					45743C952E3FC6F2006F3138 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 45743C872E3FC6F1006F3138;
+					};
+					45743C9F2E3FC6F2006F3138 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 45743C872E3FC6F1006F3138;
+					};
+				};
+			};
+			buildConfigurationList = 45743C832E3FC6F1006F3138 /* Build configuration list for PBXProject "AudioRescue" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45743C7F2E3FC6F1006F3138;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 45743C892E3FC6F1006F3138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45743C872E3FC6F1006F3138 /* AudioRescue */,
+				45743C952E3FC6F2006F3138 /* AudioRescueTests */,
+				45743C9F2E3FC6F2006F3138 /* AudioRescueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45743C862E3FC6F1006F3138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45743C942E3FC6F2006F3138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45743C9E2E3FC6F2006F3138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45743C842E3FC6F1006F3138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45743C922E3FC6F2006F3138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45743C9C2E3FC6F2006F3138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45743C982E3FC6F2006F3138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45743C872E3FC6F1006F3138 /* AudioRescue */;
+			targetProxy = 45743C972E3FC6F2006F3138 /* PBXContainerItemProxy */;
+		};
+		45743CA22E3FC6F2006F3138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45743C872E3FC6F1006F3138 /* AudioRescue */;
+			targetProxy = 45743CA12E3FC6F2006F3138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45743CA82E3FC6F2006F3138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 24T3M8PF9V;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45743CA92E3FC6F2006F3138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 24T3M8PF9V;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		45743CAB2E3FC6F2006F3138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AudioRescue/AudioRescue.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24T3M8PF9V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmilev.AudioRescue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		45743CAC2E3FC6F2006F3138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AudioRescue/AudioRescue.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24T3M8PF9V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmilev.AudioRescue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		45743CAE2E3FC6F2006F3138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24T3M8PF9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmilev.AudioRescueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioRescue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioRescue";
+			};
+			name = Debug;
+		};
+		45743CAF2E3FC6F2006F3138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24T3M8PF9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmilev.AudioRescueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioRescue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioRescue";
+			};
+			name = Release;
+		};
+		45743CB12E3FC6F2006F3138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24T3M8PF9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmilev.AudioRescueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AudioRescue;
+			};
+			name = Debug;
+		};
+		45743CB22E3FC6F2006F3138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24T3M8PF9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmilev.AudioRescueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AudioRescue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45743C832E3FC6F1006F3138 /* Build configuration list for PBXProject "AudioRescue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45743CA82E3FC6F2006F3138 /* Debug */,
+				45743CA92E3FC6F2006F3138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45743CAA2E3FC6F2006F3138 /* Build configuration list for PBXNativeTarget "AudioRescue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45743CAB2E3FC6F2006F3138 /* Debug */,
+				45743CAC2E3FC6F2006F3138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45743CAD2E3FC6F2006F3138 /* Build configuration list for PBXNativeTarget "AudioRescueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45743CAE2E3FC6F2006F3138 /* Debug */,
+				45743CAF2E3FC6F2006F3138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45743CB02E3FC6F2006F3138 /* Build configuration list for PBXNativeTarget "AudioRescueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45743CB12E3FC6F2006F3138 /* Debug */,
+				45743CB22E3FC6F2006F3138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45743C802E3FC6F1006F3138 /* Project object */;
+}

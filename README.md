@@ -12,25 +12,25 @@
 
 ## 📋 Table of Contents
 
-- [🚨 The Problem: Widespread MacBook Audio Issues](#-the-problem-widespread-macbook-audio-issues)
+- [The Problem: Widespread MacBook Audio Issues](#-the-problem-widespread-macbook-audio-issues)
   - [Affected Devices](#affected-devices)
   - [Processor Compatibility](#processor-compatibility)
-  - [🎵 Audio Problems You're Experiencing](#-audio-problems-youre-experiencing)
-  - [🔍 Root Causes (Technical Analysis)](#-root-causes-technical-analysis)
-- [💡 The Solution: CoreAudio Reset](#-the-solution-coreaudio-reset)
+  - [Audio Problems You're Experiencing](#-audio-problems-youre-experiencing)
+  - [Root Causes (Technical Analysis)](#-root-causes-technical-analysis)
+- [The Solution: CoreAudio Reset](#-the-solution-coreaudio-reset)
 - [Features](#features)
 - [Installation](#installation)
   - [Download Release (Recommended)](#download-release-recommended)
   - [Build from Source](#build-from-source)
 - [Usage](#usage)
 - [Preferences](#preferences)
-- [📚 Community & Support Resources](#-community--support-resources)
+- [Community & Support Resources](#-community--support-resources)
 - [Technical Details](#technical-details)
 - [Troubleshooting](#troubleshooting)
 - [Development](#development)
 - [License](#license)
-- [⭐ Why Choose AudioRescue?](#-why-choose-audiorescue)
-- [🆘 Still Having Audio Issues?](#-still-having-audio-issues)
+- [Why Choose AudioRescue?](#-why-choose-audiorescue)
+- [Still Having Audio Issues?](#-still-having-audio-issues)
 
 ## 🚨 The Problem: Widespread MacBook Audio Issues
 
